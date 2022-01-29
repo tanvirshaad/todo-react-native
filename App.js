@@ -70,12 +70,14 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#E8EAED',
+        // backgroundColor: '#041C32',
     },
     taskWrapper: {
         paddingTop: 80,
         paddingHorizontal: 20,
     },
     sectionTitle: {
+        color: '#188fa6',
         fontSize: 24,
         fontWeight: 'bold',
         marginBottom: 30,
@@ -93,10 +95,10 @@ const styles = StyleSheet.create({
         paddingVertical: 15,
         paddingHorizontal: 15,
         backgroundColor: '#fff',
-        borderRadius: 60,
+        borderRadius: 15,
         width: '75%',
-        borderColor: '#c0c0c0',
-        borderWidth: 1,
+        borderColor: '#188fa6',
+        borderWidth: 2,
     },
     addWrapper: {
         width: 60,
@@ -105,8 +107,12 @@ const styles = StyleSheet.create({
         borderRadius: 60,
         justifyContent: 'center',
         alignItems: 'center',
-        borderColor: '#c0c0c0',
-        borderWidth: 1,
+        borderColor: '#188fa6',
+        borderWidth: 2,
     },
-    addText: {},
+    addText: {
+        color: '#188fa6',
+        fontWeight: 'bold',
+        fontSize: 20,
+    },
 });
